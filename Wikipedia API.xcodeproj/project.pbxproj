@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3F9F38291F7033B800C7D7C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F38281F7033B800C7D7C2 /* AppDelegate.swift */; };
-		3F9F382B1F7033B800C7D7C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F382A1F7033B800C7D7C2 /* ViewController.swift */; };
+		3F9F382B1F7033B800C7D7C2 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F382A1F7033B800C7D7C2 /* ResultsViewController.swift */; };
 		3F9F382E1F7033B800C7D7C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9F382C1F7033B800C7D7C2 /* Main.storyboard */; };
 		3F9F38301F7033B800C7D7C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9F382F1F7033B800C7D7C2 /* Assets.xcassets */; };
 		3F9F38331F7033B800C7D7C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9F38311F7033B800C7D7C2 /* LaunchScreen.storyboard */; };
+		3F9F383B1F7038EE00C7D7C2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F383A1F7038ED00C7D7C2 /* SwiftyJSON.swift */; };
+		3F9F383D1F718C1D00C7D7C2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F383C1F718C1D00C7D7C2 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F9F38251F7033B800C7D7C2 /* Wikipedia API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wikipedia API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9F38281F7033B800C7D7C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F9F382A1F7033B800C7D7C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F9F382A1F7033B800C7D7C2 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		3F9F382D1F7033B800C7D7C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F9F382F1F7033B800C7D7C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9F38321F7033B800C7D7C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F9F38341F7033B800C7D7C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9F383A1F7038ED00C7D7C2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		3F9F383C1F718C1D00C7D7C2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				3F9F38281F7033B800C7D7C2 /* AppDelegate.swift */,
-				3F9F382A1F7033B800C7D7C2 /* ViewController.swift */,
+				3F9F382A1F7033B800C7D7C2 /* ResultsViewController.swift */,
+				3F9F383C1F718C1D00C7D7C2 /* SearchViewController.swift */,
 				3F9F382C1F7033B800C7D7C2 /* Main.storyboard */,
 				3F9F382F1F7033B800C7D7C2 /* Assets.xcassets */,
 				3F9F38311F7033B800C7D7C2 /* LaunchScreen.storyboard */,
 				3F9F38341F7033B800C7D7C2 /* Info.plist */,
+				3F9F383A1F7038ED00C7D7C2 /* SwiftyJSON.swift */,
 			);
 			path = "Wikipedia API";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9F382B1F7033B800C7D7C2 /* ViewController.swift in Sources */,
+				3F9F383B1F7038EE00C7D7C2 /* SwiftyJSON.swift in Sources */,
+				3F9F382B1F7033B800C7D7C2 /* ResultsViewController.swift in Sources */,
+				3F9F383D1F718C1D00C7D7C2 /* SearchViewController.swift in Sources */,
 				3F9F38291F7033B800C7D7C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
